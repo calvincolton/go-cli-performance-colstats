@@ -91,7 +91,6 @@ func TestOperations(t *testing.T) {
 
 // 	for _, tc := range testCases {
 // 		t.Run(tc.name, func(t *testing.T) {
-// 			fmt.Println(tc.col)
 // 			res, err := csv2float(tc.r, tc.col)
 
 // 			if tc.expErr != nil {
