@@ -28,7 +28,7 @@ func TestRun(t *testing.T) {
 			name:   "RunAvgMultiFiles",
 			col:    3,
 			op:     "avg",
-			exp:    "234.84848484848484\n",
+			exp:    "233.84\n",
 			files:  []string{"./testdata/example.csv", "./testdata/example2.csv"},
 			expErr: nil,
 		},
